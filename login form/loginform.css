@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(to right,skyblue,green);
+}
+p>span{
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+table{
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    margin-left: 500px;
+    width: 500px;
+    height: 300px;
+}
+.sa{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 20px
+}
+button{
+    background-color: darkblue;
+    color: white;
+    margin-left: 20px;
+    width: 410px;
+    height: 35px;
+    border-radius: 5px;
+}
+label{
+    margin-left: 20px;
+}
+.va{
+    margin-left: 150px; 
+}
+input{
+    margin-left: 20px;
+}
+.ga{
+    margin-left: 180px;
+    color: blue;
+}
+.ha{
+    background-color: black;
+    opacity: 0.4;
+}

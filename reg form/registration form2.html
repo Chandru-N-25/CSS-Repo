@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration form2.css">
+    <link rel="icon" href="registration.png">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2"><h1><img src="profile.png" height="50px" width="50">Student Registration Form</h1></td>
+            </tr>
+            <tr>
+                <td><label>First Name:</label></td>
+                <td><input type="text" placeholder="Enter your first name" size="55" height="10"></td>
+            </tr>
+            <tr>
+                <td><label>Last Name:</label></td>
+                <td><input type="text" placeholder="Enter your last name" size="55"></td>
+            </tr>
+            <tr>
+                <td><label>E-mail:</label></td>
+                <td><input type="email" placeholder="it should contain @" size="55"></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" for="psw" name="Password" placeholder="password" size="55"></td>
+            </tr>
+            <tr>
+                <td><label>Mobile:</label></td>
+                <td><input type="tel" placeholder="only 10 digits are allowed" maxlength="10" size="55"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" for="gen" name="male">Male
+                    <input type="radio" for="gen" name="female" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label>Date Of Birth:</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Address:</label></td>
+                <td><textarea id="address" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>City:</label></td>
+                <td><input type="text" for="city" name="city" size="55"></td>
+            </tr>
+            <tr>
+                <td><label>Area PIN:</label></td>
+                <td><input type="text" for="pin" name="area pin" maxlength="6" size="55"></td>
+            </tr>
+            <tr>
+                <td><label>State:</label></td>
+                <td><input type="text" for="state" name="state" size="55"></td>
+            </tr>
+            <tr>
+                <td><label>Qualification:</label></td>
+                <td>
+                    <select>
+                        <option>Select Qualification:</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Specialization:</label></td>
+                <td><input type="checkbox" for="spec" name="specialization">Computer Science<br>
+                    <input type="checkbox" for="spec" name="specialization">Information Technology<br>
+                    <input type="checkbox" for="spec" name="specialization">Computer Architecture<br>
+                    <input type="checkbox" for="spec" name="specialization">Tele Comunication<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><button>Register</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
