@@ -1,0 +1,46 @@
+body{
+    background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/tropical-background-%2Csummer-background-design-template-77d4868da55f9006156f1cd3d087c8e4_screen.jpg?ts=1594231813');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+}
+.cointainer{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 300px; 
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
+.line{
+    width: 300px;
+    color: white;
+}
+.content{
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+.but{
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.but1{
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.but2{
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+    font-family: 'Rajdhani', sans-serif;
+}
